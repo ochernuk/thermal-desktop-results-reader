@@ -22,7 +22,7 @@ You will need two sets of DLLs:
 A simple way to compile this using MSVC compiler:
 
 ```
-cl /clr /std:c++17 /O2 /EHa /nologo /I"C:\ANSYSDev\ANSYS Inc\v242\SystemCoupling\runTime\winx64\include" /FU"CRlog4Net.dll" /FU"OpenTDv232.dll" /FU"OpenTDv232.Results.dll" /FU"SinapsXNet.dll" TDResultsReader.cpp /link /subsystem:console "SysC.SystemCouplingParticipant.lib"
+cl /clr /std:c++17 /O2 /EHa /nologo /I"C:\ANSYSDev\ANSYS Inc\v242\SystemCoupling\runTime\winx64\include" /FU"CRlog4Net.dll" /FU"OpenTDv232.dll" /FU"OpenTDv232.Results.dll" /FU"SinapsXNet.dll" TDResultsReader.cpp /link /subsystem:console /LIBPATH:"C:\ANSYSDev\ANSYS Inc\v242\SystemCoupling\runTime\winx64\lib" "SysC.SystemCouplingParticipant.lib"
 ```
 
 Alternativly, use Visual Studio to create "CLR Console App" project. A pre-configured project is included in this repo.
