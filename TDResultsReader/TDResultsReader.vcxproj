@@ -141,16 +141,16 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="CRlog4Net">
-      <HintPath>..\CRlog4Net.dll</HintPath>
+      <HintPath>CRlog4Net.dll</HintPath>
     </Reference>
     <Reference Include="OpenTDv232">
-      <HintPath>..\OpenTDv232.dll</HintPath>
+      <HintPath>OpenTDv232.dll</HintPath>
     </Reference>
     <Reference Include="OpenTDv232.Results">
-      <HintPath>..\OpenTDv232.Results.dll</HintPath>
+      <HintPath>OpenTDv232.Results.dll</HintPath>
     </Reference>
     <Reference Include="SinapsXNet">
-      <HintPath>..\SinapsXNet.dll</HintPath>
+      <HintPath>SinapsXNet.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
